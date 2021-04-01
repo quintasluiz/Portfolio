@@ -1,0 +1,242 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7C5E99;
+    border-bottom: 10px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+nav {
+    text-align: right;
+}
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color:;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+    
+
+.button{
+    display: inline-block;
+    background-color: #F25A70;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+.button:hover{
+    transform:scale(1.08);
+}
+
+.main-title{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #F25A70;
+    text-shadow: 4px 4px 0 #000;
+    
+    
+}
+
+.subtitle {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 0 #000;
+    color: #fff;
+}
+
+.box{
+    display:inline-block;
+    background-color: #3A4042;
+    width: 630px;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 44px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+     
+}
+
+#box h1 {
+    margin-bottom: 28px;
+}
+
+.banner{
+    box-sizing: border-box;
+    background-image: url(./guil.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 610px;
+    border-bottom: 10px solid #000;
+    background-position: right;
+    padding-top: 20px;
+    padding-left: 60px;
+   
+    
+}
+
+
+.banner .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+   
+    
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content:space-around ;
+    
+
+}
+
+.main-title.-second{
+    color: #FFF;
+    text-shadow: none;
+    text-align: center;
+   
+}
+
+.section{
+    background-color: #F25A70;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #7C5E99;
+}
+
+.section .main-title{
+    margin-bottom: 60px;
+}
+
+.skill-tec{
+    display: flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    align-items: center;
+    
+}
+
+.section.-bgBlack {
+    background-color: black;
+}
+
+.section.-bdFirst {
+    border-color: #F25A70;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+    width: 60px;
+}
+
+.progress-bar {
+    box-sizing: border-box;
+    border: 5px solid #000;
+    height: 40px;
+   
+    
+    
+}
+
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-moz-progress-bar{
+    background-color: #7C5E99;
+
+}
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+
+}
+
+.skill-tec .title{
+    margin-bottom: 10px;
+}
+
+.wrapper-skill {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.wrapper-skill .skill-tec {
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.wrapper-skill .skill-tec:nth-child(odd) {
+    margin-right: 80px;
+}
+
+.wrapper-skill .progress-bar{
+    width: 320px;
+}
+
+.wrapper-card {
+    display: flex;
+    justify-content: center;
+}
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7C5E99;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px #FFF;
+}
+
+.logo {
+  width: 280px;
+  height: 280px;
+}
+
+.main-description {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.section.-bgroxo {
+    background-color:#7C5E99;
+}
+
+.section.-bdpreto {
+    border-color:#000;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
