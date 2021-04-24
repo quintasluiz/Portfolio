@@ -51,7 +51,7 @@ a::before {
 }
 
 .main-title{
-    font-family:'Lato', cursive;
+    font-family:'Press Start 2p', cursive;
     font-size: 45px;
     color: #F25A70;
     text-shadow: 4px 4px 0 #000;
@@ -60,7 +60,7 @@ a::before {
 }
 
 .subtitle {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Press Start 2p', sans-serif;
     font-size: 30px;
     text-shadow: 4px 4px 0 #000;
     color: #fff;
